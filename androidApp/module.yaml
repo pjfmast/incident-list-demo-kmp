@@ -1,0 +1,13 @@
+product: android/app
+
+dependencies:
+  - //shared
+  - $libs.androidx.activity.compose
+  - $compose.preview
+  - $compose.uiTooling
+
+settings:
+  compose: enabled
+  android:
+    namespace: com.example.incident_list_demo_kmp
+    applicationId: com.example.incident_list_demo_kmp
